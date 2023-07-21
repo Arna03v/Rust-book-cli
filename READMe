@@ -1,0 +1,17 @@
+### Command Line Interface
+For finding lines in your text with certain words. Can be case sensitive or insensitive depending on the user. 
+
+To run the program, 
+## Upload the text file in the parent directory of the of the src folder, i.e., in the minigrep folder
+
+To push the output to output.text -> cargo run <query> <filename> > output.txt
+To change the case senstive -> export CASE_SENSITIVE=true and then unset CASE_SENSITIVE
+
+# Like a personal mini-grep
+
+## "lib.rs" contains:
+# 1. run :
+It first reads the file that is passed in the arguments, then calls search_case_senstive or search_case_insensitive based on the case preference and returns the lines if there are lines with the query in the text file.
+
+# 2. search (both cases):
+Searches for the lines that have contain the passed query and retirn it as a Vec<&str>

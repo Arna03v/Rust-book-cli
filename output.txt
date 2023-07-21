@@ -1,0 +1,8 @@
+Searching for 'to' in file poem.txt 
+
+The following lines contain your query: 
+
+CASE_SENSITIVE: true 
+
+1. Are you – Nobody – too?
+2. How dreary – to be – Somebody!
