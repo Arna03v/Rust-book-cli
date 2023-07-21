@@ -5,7 +5,7 @@ To run the program,
 ## Upload the text file in the parent directory of the of the src folder, i.e., in the minigrep folder
 
 To push the output to output.text -> cargo run <query> <filename> > output.txt
-To change the case senstive -> export CASE_SENSITIVE=true and then unset CASE_SENSITIVE
+To change the case senstive -> export CASE_SENSITIVE=true and then unset CASE_SENSITIVE (this line only works for git bash)
 
 # Like a personal mini-grep
 
